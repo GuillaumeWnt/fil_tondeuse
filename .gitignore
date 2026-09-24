@@ -59,6 +59,8 @@ _autosave-*
 *.kicad_prl
 *-cache.lib
 *.rescue.lib
+# Filet de sécurité : ignore uniquement le projet fantôme à la racine
+/fil_tondeuse.kicad_pro
 
 # ==============================================================================
 # Exports et Livrables
