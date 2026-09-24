@@ -1,0 +1,12 @@
+# --- Automatisation & Production KiCad ---
+kikit>=1.5.0                  # Panélisation automatique et exports industriels
+InteractiveHtmlBom>=2.9.0     # Génération de la nomenclature HTML interactive (iBOM)
+
+# --- Analyse en Notebook & Calculs théoriques ---
+jupyterlab                    # Interface pour créer et exécuter des notebooks
+numpy                         # Calculs matriciels et dimensionnement de la boucle
+scipy                         # Analyse fréquentielle et filtrage du signal
+matplotlib                    # Tracé des courbes (formes d'ondes, dissipation thermique)
+
+# --- Traitement des nomenclatures (BOM) ---
+pandas                        # Tri et comparaison des listes de composants (CSV/Excel)

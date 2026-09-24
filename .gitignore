@@ -1,0 +1,75 @@
+# ==============================================================================
+# Système d'exploitation
+# ==============================================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==============================================================================
+# Environnement Local, IDE et Secrets
+# ==============================================================================
+.vscode/
+.idea/
+.history/
+.env
+*.env
+*.log
+
+# ==============================================================================
+# Python
+# ==============================================================================
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Caches et artefacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# Tests et analyse statique
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# ==============================================================================
+# KiCad
+# ==============================================================================
+# Sauvegardes, temporaires et verrous
+fp-info-cache
+*.bak
+*.pcb-bak
+*.sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*-backups/
+*.lck
+*.kicad_prl
+*-cache.lib
+*.rescue.lib
+
+# ==============================================================================
+# Exports et Livrables
+# ==============================================================================
+output/
+outputs/
+build/
+dist/
+fab/
+*-ibom.html
+*.gbr
+*.drl
+*.xln
+.kibot/

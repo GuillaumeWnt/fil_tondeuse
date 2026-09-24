@@ -1,0 +1,7048 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f0e89c17-35ff-4855-b2ad-a356743da046")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Analog_ADC:MCP3424x-xSL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.43 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MCP3424x-xSL"
+				(at 17.78 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 21.59 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-Channel, 18-Bit, Delta-Sigma AD-Converter, I²C Interface, Reference, SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "18-Bit ADC I2C IIC I²C Delta-Sigma-ADC Reference 4ch quadruple"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP3424x-xSL_0_0"
+				(polyline
+					(pts
+						(xy -6.096 13.97) (xy -3.556 12.446) (xy -3.556 -12.192) (xy -6.096 -13.716) (xy -6.096 13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 3.302) (xy 3.556 -0.762) (xy -1.016 -0.762) (xy -2.286 1.27) (xy -1.016 3.302) (xy 3.556 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 9.398) (xy -1.778 9.398) (xy -1.778 13.97) (xy -4.826 13.97) (xy -4.826 13.208)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "MUX & PGA"
+					(at -4.826 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "ADC"
+					(at 0.889 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Vref"
+					(at 4.953 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "CNTRL"
+					(at 6.731 2.413 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(symbol "MCP3424x-xSL_0_1"
+				(polyline
+					(pts
+						(xy -3.556 1.27) (xy -2.286 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 -4.572)
+					(end 2.794 -7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -5.842) (xy 0.762 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -5.842) (xy 2.032 -5.842) (xy 2.286 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.016) (xy 1.778 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -4.572) (xy 1.524 -1.016) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -5.334) (xy 1.524 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -5.842) (xy 1.016 -6.604) (xy 2.032 -6.604) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 1.27) (xy 4.572 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.572 -0.508)
+					(end 7.747 11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCP3424x-xSL_1_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "CH1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "CH1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "CH2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "CH2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "CH3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "CH3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "CH4+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "CH4-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connecteurs:691321300004"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.53 -1.205 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "691321300004"
+				(at -7.49 -3.01 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "691321300004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PART-NUMBER" "691321300004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691321300004.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "WORKING-VOLTAGE-UL" "300V (AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUNT" "THT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PITCH" "3.81mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "IR-UL" "10A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PINS" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TYPE" "Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "IR-VDE" "10.5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "WORKING-VOLTAGE-VDE" "300V (AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "691321300004_0_0"
+				(rectangle
+					(start -6.35 -2.54)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ISI-Capacitor:C_1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Gen"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ISI-Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor 1206 SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1206_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1206_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ISI-Resistor:R_US_1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol 1206 SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_1206_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1206_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Librairie_commande:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Librairie_commande:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Ponts diviseurs \nmesure température"
+		(exclude_from_sim no)
+		(at 29.972 33.528 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "31440f27-0d90-41e4-b841-9ca8535eec12")
+	)
+	(text "Ponts diviseurs \nmesure tensions"
+		(exclude_from_sim no)
+		(at 28.194 133.35 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "d34ff86d-6c94-4700-91d0-c9c2dc77962c")
+	)
+	(junction
+		(at 114.3 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ba0199-7f6d-43c7-9cc3-fccc4e0376e3")
+	)
+	(junction
+		(at 114.3 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0737a4d5-4662-4f26-95b0-9a3737b6551d")
+	)
+	(junction
+		(at 125.73 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5a8c3c-71f5-47c4-958c-13a9595ae2c3")
+	)
+	(junction
+		(at 125.73 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de52d60-29b2-4fea-b8c9-d53facd63ced")
+	)
+	(junction
+		(at 91.44 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "184f9b8c-0003-491e-b8e9-4fe905749c48")
+	)
+	(junction
+		(at 97.79 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fb318d6-99eb-4a84-b06d-e390805258a2")
+	)
+	(junction
+		(at 203.2 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2384a11f-a10b-44dd-9adf-d04e66fb946d")
+	)
+	(junction
+		(at 203.2 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a0bdd6c-4ae6-47f3-966c-729bd4a88f33")
+	)
+	(junction
+		(at 91.44 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b91875a-f4b7-4b06-8702-3ec6269a1de0")
+	)
+	(junction
+		(at 229.87 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2be0ea05-b202-49c0-af1c-b5d7710dfb6c")
+	)
+	(junction
+		(at 120.65 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45c1969a-9952-49dd-bc32-a7282ad18d86")
+	)
+	(junction
+		(at 120.65 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0644ef-ccbf-4334-996a-567ad6aa96dc")
+	)
+	(junction
+		(at 201.93 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a9377e-3d31-45a9-9c08-5a3f1a3e5d49")
+	)
+	(junction
+		(at 219.71 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "667d1743-908d-443b-9b8c-c1076b85d26d")
+	)
+	(junction
+		(at 201.93 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a54202e-1e87-442e-9cfa-08a751e68462")
+	)
+	(junction
+		(at 106.68 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce40418-de4d-4387-8ce7-cecaf63f3c60")
+	)
+	(junction
+		(at 102.87 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70d387ce-ba05-4903-a508-2b49664fa301")
+	)
+	(junction
+		(at 111.76 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792d87a3-6893-463f-a30f-611d20c5caea")
+	)
+	(junction
+		(at 106.68 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "855e90ef-a5a1-4d3b-ba02-70d098b078ab")
+	)
+	(junction
+		(at 111.76 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919bb18f-37c1-4ba0-8efd-b751fac214c1")
+	)
+	(junction
+		(at 120.65 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96aeb1a6-a970-4de4-9e4e-c2c58a580783")
+	)
+	(junction
+		(at 125.73 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975b811b-efe1-44e3-826c-ce368fc4a5f0")
+	)
+	(junction
+		(at 86.36 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f9fbbc-c04c-4834-838e-f9630174e4b0")
+	)
+	(junction
+		(at 106.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9deb9230-b442-4e37-855d-ebedf710e330")
+	)
+	(junction
+		(at 96.52 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a45112a8-b742-4520-8af6-b6fcb4ffc860")
+	)
+	(junction
+		(at 119.38 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abffea93-9c09-49de-8769-39286c28a5b8")
+	)
+	(junction
+		(at 119.38 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b52ab0a6-32c7-46e4-94e4-927db2414275")
+	)
+	(junction
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c54851f6-c18f-4923-8938-c357a03b2258")
+	)
+	(junction
+		(at 111.76 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e161c4-1f28-4d88-93ca-fd0b739bb747")
+	)
+	(junction
+		(at 119.38 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c786eb74-d532-4fe1-a915-15b97c671af1")
+	)
+	(junction
+		(at 111.76 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd5b4310-5167-4337-a8b3-e28678e08541")
+	)
+	(junction
+		(at 119.38 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d105490f-7b8f-4d84-85f6-4df60c8d332b")
+	)
+	(junction
+		(at 104.14 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1442fd0-4a5c-4c7d-a904-d9d525957da6")
+	)
+	(junction
+		(at 114.3 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e20b4353-0f31-4d55-a5a8-e1cfbdf74642")
+	)
+	(junction
+		(at 109.22 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee23cc09-3b4c-44b1-84e0-3e19c12a65f2")
+	)
+	(junction
+		(at 106.68 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f08dc7bd-38eb-470b-a8f1-2277be5d53c0")
+	)
+	(wire
+		(pts
+			(xy 55.88 175.26) (xy 61.595 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00650c8c-9f82-4f6a-85c8-fe6c3ef98ebe")
+	)
+	(wire
+		(pts
+			(xy 201.93 76.2) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04301027-bef6-4c3f-b6e1-b61a28c2030c")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065bce22-bc93-485e-b6ea-843f2cb853fd")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cf0181-51b5-489f-9034-51a50037f428")
+	)
+	(wire
+		(pts
+			(xy 125.73 170.18) (xy 130.81 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07276e7b-dc42-4dfe-af88-4d5b344a7f68")
+	)
+	(wire
+		(pts
+			(xy 119.38 132.08) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088dc212-857e-4bf0-a15d-d69b3f2d89fc")
+	)
+	(wire
+		(pts
+			(xy 217.17 45.72) (xy 229.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a860b99-2b26-4245-9a42-39a33e2ec3fc")
+	)
+	(wire
+		(pts
+			(xy 203.2 115.57) (xy 203.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0d73f9-aaa2-4934-b8a9-49dac4eb4389")
+	)
+	(wire
+		(pts
+			(xy 33.02 193.04) (xy 33.02 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b120f2e-96c3-4bf5-add1-879a3be485ef")
+	)
+	(wire
+		(pts
+			(xy 55.88 140.97) (xy 61.595 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d65d71e-c9a9-46d8-bad1-01c949da7f67")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de5d3bb-21fa-474f-b660-d5b415ef9ee8")
+	)
+	(wire
+		(pts
+			(xy 125.73 170.18) (xy 125.73 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1316a8ef-93ae-4bd6-92df-c800f69f97bb")
+	)
+	(wire
+		(pts
+			(xy 229.87 115.57) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b073779-bc4d-4187-93c6-e21732e895ed")
+	)
+	(wire
+		(pts
+			(xy 64.135 67.31) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baf2d2f-49ab-4f72-81d4-e7286a63ef0e")
+	)
+	(wire
+		(pts
+			(xy 218.44 125.73) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f82b30d-d142-475c-88d4-0fbbcaa5f3d0")
+	)
+	(wire
+		(pts
+			(xy 203.2 156.21) (xy 203.2 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212a246e-a850-4b8d-a2ce-0372c359565b")
+	)
+	(wire
+		(pts
+			(xy 106.68 40.64) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cf76c8-bef5-47a4-b326-b6cc085e3234")
+	)
+	(wire
+		(pts
+			(xy 111.76 132.08) (xy 111.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24570af0-e7eb-41a9-9b6d-a46775481864")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26570ffd-738e-4ac5-a834-5fbfde6e1a8d")
+	)
+	(wire
+		(pts
+			(xy 29.21 77.47) (xy 29.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280c415c-da21-46a7-a376-3f9cfa85262e")
+	)
+	(wire
+		(pts
+			(xy 27.94 49.53) (xy 43.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296776aa-39d9-4358-b6e2-8d03b8dca97a")
+	)
+	(wire
+		(pts
+			(xy 173.99 138.43) (xy 187.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1b0d83-8e3a-4f89-bb00-56bea854f384")
+	)
+	(wire
+		(pts
+			(xy 217.17 53.34) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdc6156-68b7-4431-a65b-1a84bf7d52ae")
+	)
+	(wire
+		(pts
+			(xy 29.21 77.47) (xy 27.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a34c0e-ec79-4a31-9f22-bd19fbd8a662")
+	)
+	(wire
+		(pts
+			(xy 119.38 149.86) (xy 119.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c9b444-b8fa-4661-94f5-d72cb57deb67")
+	)
+	(wire
+		(pts
+			(xy 222.25 50.8) (xy 219.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336a3930-64dd-4420-b42b-1bc8b8363d94")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 56.515 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5c27da-b413-45ba-b1f7-dddd2090502e")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 111.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da6b698-6d00-453c-a1c6-65b191f2932a")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f29cf78-6d6a-475e-ba3f-91f6803b8147")
+	)
+	(wire
+		(pts
+			(xy 64.135 83.82) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4118fd42-4237-4918-a668-31c124a08a94")
+	)
+	(wire
+		(pts
+			(xy 217.17 48.26) (xy 229.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437a8c16-efe1-48c4-9a6f-3329055cb25c")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4543b4b5-29c5-4fca-91f6-e321de0a38ec")
+	)
+	(wire
+		(pts
+			(xy 97.79 46.99) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475f4f48-f68c-4c5f-a4bc-cda7a60a1ef6")
+	)
+	(wire
+		(pts
+			(xy 104.14 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fbd106-82ee-4429-8e1a-6cc2d1f2f44b")
+	)
+	(wire
+		(pts
+			(xy 29.21 83.82) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8f3bb6-879d-4051-9e80-afa7324020b7")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 56.515 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ff4d0a-3207-4fd5-8693-3902541af6d9")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fb5471-ddd2-42fc-b237-078f93324cc8")
+	)
+	(wire
+		(pts
+			(xy 33.02 193.04) (xy 48.26 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565c6c1a-cd81-41a6-b0f3-6b97a9e0e3ae")
+	)
+	(wire
+		(pts
+			(xy 69.215 157.48) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e42766-6309-4288-94ef-8190ca74cb2a")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ace1f8c-e243-4607-a53a-3361846a613c")
+	)
+	(wire
+		(pts
+			(xy 114.3 58.42) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e487ecf-cfe4-4ccd-ae51-129ade6b8b14")
+	)
+	(wire
+		(pts
+			(xy 125.73 140.97) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f880577-8938-4486-9713-1dc9d68e1392")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c96bcf-dfbb-4697-b33d-67778e3fbcc0")
+	)
+	(wire
+		(pts
+			(xy 96.52 175.26) (xy 111.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65296ef4-6c5c-4639-9d52-e159368cee52")
+	)
+	(wire
+		(pts
+			(xy 111.76 184.15) (xy 111.76 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fd01f6-0773-4810-890e-3099e881b361")
+	)
+	(wire
+		(pts
+			(xy 33.02 140.97) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6804d99e-81cc-4dce-819b-baf3e0558e56")
+	)
+	(wire
+		(pts
+			(xy 69.215 140.97) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9c6ac2-b7b3-4c46-aa61-c09495e4b6c9")
+	)
+	(wire
+		(pts
+			(xy 27.94 74.93) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5250be-2b79-4f36-a3ba-c8548cfd3e7d")
+	)
+	(wire
+		(pts
+			(xy 201.93 35.56) (xy 240.03 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d696364-e497-4484-9b0e-a95a7c85da8b")
+	)
+	(wire
+		(pts
+			(xy 104.14 46.99) (xy 104.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9300b5-1060-4bce-a6ff-f1103fb605ce")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 56.515 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f9e68d-87f6-42b6-9505-8ece78aa735d")
+	)
+	(wire
+		(pts
+			(xy 172.72 50.8) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74af9709-7ddf-456a-8aab-3b7b198d8802")
+	)
+	(wire
+		(pts
+			(xy 119.38 140.97) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fa5bd8-b37c-4c99-b653-0bd3ef24c1f2")
+	)
+	(wire
+		(pts
+			(xy 201.93 74.93) (xy 201.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76444a96-a20d-40ad-ba5a-33665d91d78a")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fdb2fd-fe61-4921-9475-092443bc1d23")
+	)
+	(wire
+		(pts
+			(xy 41.91 172.72) (xy 33.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79338680-6a61-4e5d-956e-5e3d659e6197")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a8946a-46ff-4759-88fe-78a376bfb368")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 96.52 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f2befb-d34c-47cf-9b83-845bc4fb5d94")
+	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1b1858-b266-4a23-977e-e7edb271cc80")
+	)
+	(wire
+		(pts
+			(xy 173.99 146.05) (xy 187.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbff185-e79b-4425-91fc-086e3c10b199")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 111.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84068684-0269-491c-9491-145ab464ba19")
+	)
+	(wire
+		(pts
+			(xy 41.91 157.48) (xy 41.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842df23a-a094-4daf-9cdc-de3d2f3773d9")
+	)
+	(wire
+		(pts
+			(xy 27.94 72.39) (xy 27.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cda8fc-f73f-447f-bf9e-266c075d3602")
+	)
+	(wire
+		(pts
+			(xy 119.38 175.26) (xy 125.73 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8542e92e-52b0-43ad-83a6-3bdeed538514")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865537ba-6ef5-40d7-bd1a-cd82ac562350")
+	)
+	(wire
+		(pts
+			(xy 102.87 157.48) (xy 111.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c747e1-d52e-4724-ad73-5e6b07c472dc")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89777aca-0b4c-47bc-b6f2-14a3414a2759")
+	)
+	(wire
+		(pts
+			(xy 91.44 138.43) (xy 91.44 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f8d8fc-6cba-4be5-93af-9346c3705fc7")
+	)
+	(wire
+		(pts
+			(xy 69.215 193.04) (xy 91.44 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e30d5f-89b8-41b4-bcde-b69815c4d5a3")
+	)
+	(wire
+		(pts
+			(xy 201.93 34.29) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92731615-1c25-4520-a853-4f4a70fac369")
+	)
+	(wire
+		(pts
+			(xy 125.73 175.26) (xy 125.73 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9a1918-b391-4b26-abac-8b95f5799eb5")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d98c68b-b45b-4498-b950-8a562f73fc21")
+	)
+	(wire
+		(pts
+			(xy 201.93 74.93) (xy 240.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a033c654-2aec-438c-bee9-2c8a66ae04e0")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fea789-1a4c-48ff-a7b2-7256b6fefd38")
+	)
+	(wire
+		(pts
+			(xy 119.38 184.15) (xy 119.38 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31da10a-2696-49b8-8f5d-98272ce4f332")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e6b59e-ee5e-494e-9d7a-c5a902b8d09f")
+	)
+	(wire
+		(pts
+			(xy 229.87 130.81) (xy 229.87 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc7bfd3-3063-4c8c-8abb-5b72488419f8")
+	)
+	(wire
+		(pts
+			(xy 55.88 193.04) (xy 61.595 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac205231-b6eb-49ab-ae0f-36e9f8061c2d")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaa5ed0-3439-4607-a019-0c227c94fe34")
+	)
+	(wire
+		(pts
+			(xy 64.135 49.53) (xy 104.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebb3264-39c3-4b77-b6f5-fa018b76d7f7")
+	)
+	(wire
+		(pts
+			(xy 119.38 166.37) (xy 119.38 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd58c5b-f886-4691-b12a-c84fe3e6f058")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a921af-3ed5-4b97-ab54-3a8fdb0f7b3e")
+	)
+	(wire
+		(pts
+			(xy 69.215 175.26) (xy 96.52 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0aef918-e5b7-4eaf-b0ee-797b9cfa502b")
+	)
+	(wire
+		(pts
+			(xy 27.94 101.6) (xy 43.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b5bdb8-8fef-4a8f-964d-e9005ed909a2")
+	)
+	(wire
+		(pts
+			(xy 64.135 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8472740-832c-4ce1-b081-c200eda3ce5b")
+	)
+	(wire
+		(pts
+			(xy 201.93 35.56) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c5e1ba-f106-472c-89a8-5fa38bb9a6db")
+	)
+	(wire
+		(pts
+			(xy 125.73 193.04) (xy 119.38 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9031f8-7e96-43db-ac54-3bc819b4a4d0")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae36b84-483c-4ca3-8936-fe864f7b66d8")
+	)
+	(wire
+		(pts
+			(xy 55.88 157.48) (xy 61.595 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb643c77-d228-496c-a355-da398aec0029")
+	)
+	(wire
+		(pts
+			(xy 125.73 157.48) (xy 125.73 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd79ed2f-0cd6-451c-8853-f138acec2bdf")
+	)
+	(wire
+		(pts
+			(xy 86.36 46.99) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18e6f41-0cb9-4e0d-aad5-459026ba2ef3")
+	)
+	(wire
+		(pts
+			(xy 203.2 154.94) (xy 229.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54f77fd-5586-4279-b3f1-ca7d7d9afc49")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c624ea3b-e8d5-4085-a5fd-0ddf4cca6ea5")
+	)
+	(wire
+		(pts
+			(xy 119.38 157.48) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84ef702-3eb0-41df-ac92-3966ac3ee3da")
+	)
+	(wire
+		(pts
+			(xy 218.44 128.27) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca97bc87-ba13-4658-b141-8a2be251bbf8")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce948d8c-0b72-4e09-a446-0709d9bd1fa3")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8d58eb-fd2a-4e01-bd2f-bb1683982d42")
+	)
+	(wire
+		(pts
+			(xy 102.87 138.43) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27acbcb-9845-4a6b-9dc1-ff6dac7e8feb")
+	)
+	(wire
+		(pts
+			(xy 229.87 151.13) (xy 229.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ed3251-67d5-48e9-ab8f-394e8db9957b")
+	)
+	(wire
+		(pts
+			(xy 27.94 80.01) (xy 27.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cf77a5-587e-42cb-b584-4be85c40ad82")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 41.91 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1ea195-4da7-46e1-b0e9-083aba13987e")
+	)
+	(wire
+		(pts
+			(xy 203.2 115.57) (xy 229.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6d9a3b-dea5-4fa9-887d-b15b552f45f6")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8d6cfe-0e57-4544-a59f-77295fe7e376")
+	)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 38.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8eb16f-2d47-41e6-ad85-ca150b463e7f")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e5cf59-a53b-4d02-a72d-cec9e4fa5cb5")
+	)
+	(wire
+		(pts
+			(xy 240.03 71.12) (xy 240.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f35163-6ad1-4315-b2ad-c978210cf5f1")
+	)
+	(wire
+		(pts
+			(xy 33.02 140.97) (xy 33.02 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c88c87-2867-40ba-907a-1d454af819a0")
+	)
+	(wire
+		(pts
+			(xy 33.02 175.26) (xy 48.26 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71de802-08c3-4540-b7b0-a2fd3713479d")
+	)
+	(wire
+		(pts
+			(xy 109.22 140.97) (xy 111.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98c4329-a7f9-455d-8985-c641bb308f6a")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55d50c0-b82b-401f-999f-ca0ac7d04481")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57f84d9-03ae-4c73-b982-bfc8fa4f9123")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.31) (xy 43.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70fa301-1fb7-46a5-9f13-6b102c118fa0")
+	)
+	(wire
+		(pts
+			(xy 97.79 67.31) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8373d62-6dad-4052-bf75-ed38cc98eeaf")
+	)
+	(wire
+		(pts
+			(xy 203.2 154.94) (xy 203.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c31013-bd46-40eb-b1f2-55b517707ad0")
+	)
+	(wire
+		(pts
+			(xy 50.8 67.31) (xy 56.515 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2889b3-0cfb-4c6a-a3ac-d9843b662646")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc55467-49a6-4fd9-99f9-33008f61decf")
+	)
+	(wire
+		(pts
+			(xy 120.65 49.53) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fead8ad8-1b06-481d-8695-eaf9aa6eaf11")
+	)
+	(wire
+		(pts
+			(xy 91.44 193.04) (xy 111.76 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedaf086-4b5d-4599-bb77-64d4c80287f1")
+	)
+	(wire
+		(pts
+			(xy 172.72 43.18) (xy 186.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8e51b6-6fde-42f7-904d-4ddb301fef81")
+	)
+	(label "Temp_batt2"
+		(at 91.44 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "010b61d9-5ac3-4c41-911f-1c85a1bcd4c9")
+	)
+	(label "V_batt2"
+		(at 96.52 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0acb3983-445f-495b-800a-434980ce28e3")
+	)
+	(label "SDA"
+		(at 223.52 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eec3592-3af5-40f2-bb10-9617d3c09cce")
+	)
+	(label "V_batt3"
+		(at 173.99 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17c40ca0-ca6c-494e-a2b9-ba42a0c1891d")
+	)
+	(label "V_batt1"
+		(at 173.99 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1858b970-797a-4fa8-a8be-3f0a4ffa3db0")
+	)
+	(label "Temp_batt1"
+		(at 86.36 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21eb8cbb-80d9-465d-9ff7-ba60ec515e67")
+	)
+	(label "Temp_batt2"
+		(at 172.72 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "293cfafd-8de2-4f04-8d48-f482822d318b")
+	)
+	(label "SCL"
+		(at 223.52 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3df8ef39-078c-4f55-b935-0b489a78dede")
+	)
+	(label "SCL"
+		(at 222.25 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f3db31a-ea73-4f7c-998a-c9c7d5ec9fc5")
+	)
+	(label "Temp_batt3"
+		(at 172.72 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ff3a88f-0dc2-46f3-9672-ec83b30278ce")
+	)
+	(label "Temp_batt3"
+		(at 97.79 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ac627f9-f078-41f7-84f4-ee787c1e10ca")
+	)
+	(label "Temp_batt4"
+		(at 104.14 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d149f5f-8f85-4360-82f9-f81ef90e648c")
+	)
+	(label "V_batt4"
+		(at 173.99 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4eb45b-04cd-48d1-b8a8-47d1530add9b")
+	)
+	(label "V_batt1"
+		(at 91.44 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "737c4e47-33f5-42c6-a541-c108564f9d42")
+	)
+	(label "V_batt4"
+		(at 109.22 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad26b26-376e-4b18-86e6-5c060b9f31cf")
+	)
+	(label "V_batt3"
+		(at 102.87 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9fa4041-cafa-426d-81ec-c2d0701bdce4")
+	)
+	(label "Temp_batt4"
+		(at 172.72 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d59f653f-01ab-4063-b2cd-bc6d1d90799b")
+	)
+	(label "SDA"
+		(at 222.25 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de3dcc84-db94-4a21-b72f-39c315b0d7a7")
+	)
+	(label "V_batt2"
+		(at 173.99 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5fdce10-f65e-4e91-af1c-823805374744")
+	)
+	(label "Temp_batt1"
+		(at 172.72 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb50fa34-7bb0-48ef-850c-8837de36013a")
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 229.87 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0618d4bb-41e5-49df-92b5-02fd4d688dba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.3628 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 229.87 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b9aa4f1-d570-4ec8-9e10-2f6ad9b03da5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4233 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 186.69 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f5c0f1-94fc-4af8-b4ea-2f71188ef76a")
+		(property "Reference" "#PWR052"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1944f93d-06cf-4ba5-bb78-2fbdd7654fa4")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08445a10-b4ed-4985-85d6-22e67ab28e99")
+		(property "Reference" "R43"
+			(at 108.966 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.506 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78db630d-383c-4c16-a88b-29c4284a1a78")
+		)
+		(pin "1"
+			(uuid "b105114a-9616-4db1-8b2d-20bf73e0bace")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 60.325 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11adf04b-e5b5-44ef-ba80-7aadb3e55f0c")
+		(property "Reference" "R70"
+			(at 60.325 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 60.325 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.579 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.325 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 60.325 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c98526db-7e41-45a9-a8e0-47dd486ae17c")
+		)
+		(pin "1"
+			(uuid "870cd5ed-9e00-4543-9c0c-a0126cde3861")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13cdd0bd-95b7-4c88-bf30-45b90d2b1da3")
+		(property "Reference" "R76"
+			(at 109.2199 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.7599 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e910c31-a462-4dd7-b4b0-d8940d79a73c")
+		)
+		(pin "1"
+			(uuid "9477c6fc-f07d-4d8a-a90c-923181e3b30d")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 186.69 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe3c5ac-3333-4eb9-9c5a-0c3f2c4f8b4e")
+		(property "Reference" "#PWR053"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50db4bfb-f915-46fe-8bde-1404aeb5b50e")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 65.405 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29188151-f548-4600-ab55-9926de1e8366")
+		(property "Reference" "R75"
+			(at 65.405 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 65.405 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 65.659 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 65.405 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82b2e707-ffb4-4ac5-8798-877c623268da")
+		)
+		(pin "1"
+			(uuid "31d58d86-5ca3-4c81-8407-164c4157a441")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a11653f-5289-44c3-ab14-225dd42658e8")
+		(property "Reference" "R28"
+			(at 114.046 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.586 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88655633-7b18-45da-80df-b872e74c5b92")
+		)
+		(pin "1"
+			(uuid "9ff64b73-7c0e-471e-98cb-4d8f5902e145")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 186.69 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2adb9c05-6401-433f-afb0-e1a7498909c4")
+		(property "Reference" "#PWR054"
+			(at 180.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75a1c983-733f-489f-a7b7-761b1d4c1d09")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 60.325 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36507b71-06c3-4fac-ad73-c6df3b068a4f")
+		(property "Reference" "R71"
+			(at 59.0549 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 61.5949 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.579 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.325 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 60.325 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3627d067-77ee-4560-8d47-9dec0cf13c80")
+		)
+		(pin "1"
+			(uuid "ff548d3f-55a2-498b-8ca1-50645c952e4a")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 46.99 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "365a96a0-65e4-4830-b3b0-4744bcbc7d6f")
+		(property "Reference" "R60"
+			(at 45.7199 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 48.2599 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 47.244 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69b801ea-16e9-42c0-b1f5-b6de4572b462")
+		)
+		(pin "1"
+			(uuid "2b0244da-d265-47f2-94b9-716810863beb")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:MCP3424x-xSL")
+		(at 201.93 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ed628d8-d162-4219-b098-ed92b8ae6ae1")
+		(property "Reference" "U8"
+			(at 184.15 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP3424x-xSL"
+			(at 184.15 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-IC:SO_SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf"
+			(at 201.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Channel, 18-Bit, Delta-Sigma AD-Converter, I²C Interface, Reference, SOIC-14"
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "afb4ff75-e622-42b3-bb7b-c1042b67f916")
+		)
+		(pin "3"
+			(uuid "7f028be7-5b7c-4b4f-bfde-7af8bee86742")
+		)
+		(pin "14"
+			(uuid "4ec81df2-0562-40cf-8ac0-4e24d6745d4e")
+		)
+		(pin "1"
+			(uuid "71382623-1267-4366-b09a-40de5fd75d8f")
+		)
+		(pin "13"
+			(uuid "347556f0-8dc5-404b-8784-cbbd02346e44")
+		)
+		(pin "7"
+			(uuid "1a0a55ae-849a-4ef6-83d0-6555e3c4795e")
+		)
+		(pin "6"
+			(uuid "6c0da182-c413-453c-ae4c-652ef4e78e8e")
+		)
+		(pin "2"
+			(uuid "000edbc2-138c-41a7-8cd2-2a7c555a1d84")
+		)
+		(pin "9"
+			(uuid "c8943c29-f569-43ad-8198-57fa345c98e3")
+		)
+		(pin "10"
+			(uuid "006c8ce1-cd39-4777-98fa-14ba345e0347")
+		)
+		(pin "5"
+			(uuid "13ac8761-8a79-4a6e-86e8-e02d5c2b8408")
+		)
+		(pin "8"
+			(uuid "36e9ef4f-bbdb-4578-8f0a-e9be43d02b5d")
+		)
+		(pin "12"
+			(uuid "a3801e87-9b12-4047-a13c-7ac5b50d0d8b")
+		)
+		(pin "4"
+			(uuid "2ab452a4-d736-4690-8ca8-c99e9f726b97")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 46.99 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43cb0823-0cde-473f-ac7e-29a6d6f6b613")
+		(property "Reference" "R63"
+			(at 46.99 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 47.244 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "642731dd-ffc2-4a77-b3bd-1e3f27b218ce")
+		)
+		(pin "1"
+			(uuid "f4ea4124-c2b6-496a-b794-010c6be91503")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 187.96 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4427be87-e8b0-4153-adc1-1b658505cdda")
+		(property "Reference" "#PWR072"
+			(at 181.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23c2df70-90f1-4b8c-ad32-9cdea5661415")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 220.98 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4662d1ce-d1fa-418c-9331-fec0b8645de6")
+		(property "Reference" "#PWR077"
+			(at 227.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.964 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73ba9861-34bc-4d9b-b8cc-8b25b80f75a2")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c758507-1af1-436c-a474-a5c0d44191b6")
+		(property "Reference" "R79"
+			(at 110.49 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "026b3175-5b0f-4270-aa13-761a1bb6ee31")
+		)
+		(pin "1"
+			(uuid "956e91cf-74cf-4e01-a3e6-9fd921ae42d4")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connecteurs:691321300004")
+		(at 27.94 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52ff75c4-4ae2-44b2-99fb-6cba19d3b6f8")
+		(property "Reference" "J10"
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "691321300004"
+			(at 24.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Librairie_commande:Connecteur_4pins"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Collecteur temp batteries"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "691321300004"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691321300004.pdf"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE-UL" "300V (AC)"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "THT"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "3.81mm"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR-UL" "10A"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" "4"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "Vertical"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR-VDE" "10.5A"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE-VDE" "300V (AC)"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e573bae9-2092-4583-b51e-a93827b95ca3")
+		)
+		(pin "2"
+			(uuid "de1c74cb-8476-436f-9592-9a25df667bfe")
+		)
+		(pin "3"
+			(uuid "d06b20eb-dbe5-4f05-a0c1-5bc2f1ac459d")
+		)
+		(pin "4"
+			(uuid "7827cf54-b1c9-45ce-8f46-365745a751b0")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 60.325 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55dbe18f-91f3-4d2a-8dd9-5ebe680e45a6")
+		(property "Reference" "R68"
+			(at 59.0549 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 61.5949 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.579 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.325 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 60.325 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0b76de6-79e5-496b-8184-979bd8ba284a")
+		)
+		(pin "1"
+			(uuid "147b0e12-e07b-41c8-9c67-909fa10c0324")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 201.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55eb65b7-7bbe-456b-aa36-1e9892582c03")
+		(property "Reference" "#PWR056"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb4030ba-1684-4ad4-891a-47072b224d6a")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 130.81 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "583961d5-763c-4eff-bee2-b184682f4835")
+		(property "Reference" "#PWR070"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a2c1a1-b8ef-4d4c-a242-7e9392432cca")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 52.07 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a27cfc5-d465-4336-8abf-5bd9eba4516d")
+		(property "Reference" "R66"
+			(at 52.07 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 52.324 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0cd905d-b464-4b81-bef8-21510695dfe7")
+		)
+		(pin "1"
+			(uuid "6055b35b-33c8-4bb6-b9b9-dd091b4e48d9")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b8d31ed-5120-424b-ae5e-8f2643052cee")
+		(property "Reference" "R81"
+			(at 114.046 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.586 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2bad14a-0278-4cf1-bd10-4b6c8fa16322")
+		)
+		(pin "1"
+			(uuid "946501b5-3135-40ac-987c-1939f8b00735")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 186.69 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb9099b-37de-4ca9-b7bc-e4ba7662ea63")
+		(property "Reference" "#PWR051"
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d337b05-152b-4f04-aa6f-809493673397")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "667eeed3-bdcd-48b3-8157-33eb4a9985b6")
+		(property "Reference" "R77"
+			(at 109.2199 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.7599 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9953f3ba-3616-4784-92c6-bac52dda5ecb")
+		)
+		(pin "1"
+			(uuid "01519d3f-bfb9-473c-9961-465ed56dded8")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 125.73 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6738e8f2-a122-42b7-a2c6-b9caa27aa652")
+		(property "Reference" "#PWR069"
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e0a2033-2fea-4332-ae1c-f8ef7e54f5f9")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "690cc9c4-6233-46a8-a510-8a0f49bfe857")
+		(property "Reference" "R40"
+			(at 108.966 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.506 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b774ab74-a682-4932-9d25-09acfce40420")
+		)
+		(pin "1"
+			(uuid "fc7018e5-2257-49c5-8bd6-c7c7218eda7f")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 65.405 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f26ee6d-c1ba-4dad-9fa4-b416a5eea87e")
+		(property "Reference" "R72"
+			(at 65.405 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 65.405 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 65.659 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 65.405 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "383fd13e-b7be-461a-a06b-0140be6db970")
+		)
+		(pin "1"
+			(uuid "b7b43e14-d824-49e1-9cf1-07c7b3fdc013")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70ca4c74-23a3-496f-8b98-c94d68ff52fd")
+		(property "Reference" "R82"
+			(at 113.792 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 115.57 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d586a93d-8c73-4cb6-a933-5421b321201f")
+		)
+		(pin "1"
+			(uuid "f2872010-ea87-4639-adfd-8ae60f2e2c49")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d484793-d86f-4f79-8e6e-a936fbfaaf82")
+		(property "Reference" "R42"
+			(at 108.966 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.506 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "240cd99b-b602-4623-9b65-b1febc8d4c35")
+		)
+		(pin "1"
+			(uuid "83d5dac5-8215-4b2c-be8c-de34974d4ba9")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 187.96 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea61238-7e1f-453a-9ec3-b8611e1c23d2")
+		(property "Reference" "#PWR071"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49aa37b3-0f92-4e08-affe-6256602a680a")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80a0c633-469f-4043-9873-50ab9abd19b5")
+		(property "Reference" "R41"
+			(at 108.966 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.506 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69e48258-4f21-434e-8b7e-da5564491fdc")
+		)
+		(pin "1"
+			(uuid "478311ee-1a0b-4682-971f-1a65fa5ad378")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85b446e0-34bc-42ee-ac56-339f6d588ef4")
+		(property "Reference" "R37"
+			(at 114.046 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.586 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "526e70d8-7e24-4776-91fa-fce440f48ced")
+		)
+		(pin "1"
+			(uuid "2d808589-3912-4db5-88a8-318ea78a394e")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 65.405 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e42155e-b994-4db7-b90a-16799268d022")
+		(property "Reference" "R74"
+			(at 65.405 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 65.405 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 65.659 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 65.405 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3756583-7e7f-492a-93dd-ec03471b09c0")
+		)
+		(pin "1"
+			(uuid "b136f825-aada-4600-9424-9e8cc91c1f18")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:+5V")
+		(at 203.2 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c3c69c-f198-44b8-b458-b3fb395ab497")
+		(property "Reference" "#PWR075"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e392a75c-032c-4c97-a4da-89a33d57af2b")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 46.99 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99febba9-821f-4827-8b6a-67e6847bd55d")
+		(property "Reference" "R61"
+			(at 45.7199 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 48.2599 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 47.244 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57d15357-9100-4a33-8303-983a179712ca")
+		)
+		(pin "1"
+			(uuid "02f9cf9f-52f6-437f-ad40-6fd0b1d3e5b6")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 52.07 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c22c9bd-29b9-42e8-9993-26982bcdd6a1")
+		(property "Reference" "R64"
+			(at 52.07 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 52.324 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56d51639-22c4-43e2-9ef6-1a914dec8cf9")
+		)
+		(pin "1"
+			(uuid "05115a80-1fd3-4191-ac2d-fc7c721b6f34")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:MCP3424x-xSL")
+		(at 203.2 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f1c06a-db65-4a45-9245-ad1c3ff51350")
+		(property "Reference" "U10"
+			(at 185.42 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP3424x-xSL"
+			(at 185.42 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-IC:SO_SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Channel, 18-Bit, Delta-Sigma AD-Converter, I²C Interface, Reference, SOIC-14"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "bbed8e88-db1c-44c9-94a3-27d0a6a4595a")
+		)
+		(pin "3"
+			(uuid "209b82aa-02ef-4160-8c7b-910bfaa0fea9")
+		)
+		(pin "14"
+			(uuid "039e2797-edea-4bee-bd76-e0ad41394086")
+		)
+		(pin "1"
+			(uuid "0b10fc40-ce8b-4e5c-b852-ea562f2fc0f9")
+		)
+		(pin "13"
+			(uuid "0dd599f7-c5d2-4b90-95ff-c23f0198cf4e")
+		)
+		(pin "7"
+			(uuid "705b24e3-edca-4ecb-8127-da3abe3930a3")
+		)
+		(pin "6"
+			(uuid "2276d7b5-6d2e-4dee-894f-953a9499a90e")
+		)
+		(pin "2"
+			(uuid "f8bacb19-31f5-483f-b9ba-c8df5708a35e")
+		)
+		(pin "9"
+			(uuid "f3920578-1490-411d-a333-452d82d5ea53")
+		)
+		(pin "10"
+			(uuid "830084bd-48f3-49cf-9b4d-c5b9814b0cff")
+		)
+		(pin "5"
+			(uuid "4f910092-ef21-4f3e-b34c-90ab7675396d")
+		)
+		(pin "8"
+			(uuid "c6371818-56bc-4eb9-b8a2-523623bab0e8")
+		)
+		(pin "12"
+			(uuid "dca31938-3e91-4022-82cd-21f5dc62f0cd")
+		)
+		(pin "4"
+			(uuid "9b4cbc6b-4044-4865-a354-748d97b5e45f")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 60.325 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a65a6344-74b0-46a0-a8cc-3c01924cde68")
+		(property "Reference" "R69"
+			(at 59.0549 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 61.5949 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.579 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.325 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 60.325 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87501b2c-2db5-4e6a-98ca-665313f1790e")
+		)
+		(pin "1"
+			(uuid "43200f2e-3ae5-4bf7-9de3-2384d0a066b5")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9409cd3-b5b1-455e-a5ac-5bb7fe33831d")
+		(property "Reference" "R38"
+			(at 114.046 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.586 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d5da9be-e506-4a15-8000-f0ed301bfca8")
+		)
+		(pin "1"
+			(uuid "8166496b-b0a8-4fc3-a0a5-63add8061c34")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 52.07 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa3f0d78-cbad-47ea-a5ff-fde423b821e8")
+		(property "Reference" "R67"
+			(at 52.07 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 52.324 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 52.07 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df2a9cf5-c93e-4e5a-a575-a2a5dfd179e6")
+		)
+		(pin "1"
+			(uuid "8ec2f551-ab29-4732-be5f-2b39ee83ea0b")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connecteurs:691321300004")
+		(at 22.86 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b482843c-e2ad-473e-875f-01d0f1d45025")
+		(property "Reference" "J9"
+			(at 24.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "691321300004"
+			(at 19.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Librairie_commande:Connecteur_4pins"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Collecteur temp batteries"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "691321300004"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691321300004.pdf"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE-UL" "300V (AC)"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "THT"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "3.81mm"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR-UL" "10A"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" "4"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "Vertical"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR-VDE" "10.5A"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE-VDE" "300V (AC)"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d9c553-09bc-41d5-ad15-54c754667bd7")
+		)
+		(pin "2"
+			(uuid "397779ce-fb94-4bdd-8b58-47802b156c6d")
+		)
+		(pin "3"
+			(uuid "392140fe-be0a-496b-80fc-fc50c7035d2c")
+		)
+		(pin "4"
+			(uuid "75a69b6d-5852-4281-889b-1a9948448c74")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 110.49 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9c991f2-901c-4ae7-b7c4-b5e527249354")
+		(property "Reference" "R78"
+			(at 110.49 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 110.744 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "574b83f5-d06d-42cd-a928-90b99d434565")
+		)
+		(pin "1"
+			(uuid "c49c901a-e5c4-4cf0-a92c-7a677de0ee2e")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 65.405 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf25ea81-06ad-46a7-978f-63133ab115f4")
+		(property "Reference" "R73"
+			(at 63.881 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.421 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 65.659 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 65.405 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23434c18-6e42-4088-b849-a890a95b3be0")
+		)
+		(pin "1"
+			(uuid "cb442fc0-5db6-43fc-bae8-43a3cf2831e6")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 52.07 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf6614d2-5101-40ca-adb1-030bbd00f8eb")
+		(property "Reference" "R65"
+			(at 50.546 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 53.086 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 52.324 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8aba4690-cabc-4a54-b504-bf2bcb582ce2")
+		)
+		(pin "1"
+			(uuid "7df3e708-3f87-48e5-adff-9f7fe02851fd")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 187.96 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6e7087a-6754-44b7-ad79-84ad2b1948df")
+		(property "Reference" "#PWR073"
+			(at 181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a181eb-1dbc-4375-991f-d54ee4cc2570")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb3c0930-5ea0-4461-a710-68099d7ce01c")
+		(property "Reference" "R83"
+			(at 115.57 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 116.8399 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1bafd07b-ebbb-4bd6-bd67-8990a7c0929b")
+		)
+		(pin "1"
+			(uuid "1f55a654-03a8-4639-9d97-32520cfb46df")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 187.96 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfad3efe-5545-4be8-88a5-43de9ccbd88b")
+		(property "Reference" "#PWR074"
+			(at 181.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a5c1bce-9e6b-4dbb-a060-1e1d421d5701")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:+5V")
+		(at 201.93 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da2357fa-abd4-4c5d-ae43-8ee6986e13f9")
+		(property "Reference" "#PWR055"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43757d1d-f2f7-47b7-b311-df8471e3f3b6")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Capacitor:C_1206")
+		(at 229.87 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df8f2d81-e3eb-4271-b5ce-27a6296a31ef")
+		(property "Reference" "C23"
+			(at 232.156 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 230.8352 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor 1206 SMD"
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fe787f1-bbd0-4d00-ad65-d27bb21bdaf3")
+		)
+		(pin "2"
+			(uuid "71777070-2e04-431f-9c86-9b909d86c516")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 222.25 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0217f7a-2937-42db-a97d-e886b8b6e797")
+		(property "Reference" "#PWR057"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 221.234 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc4abda-ae1e-4e79-b4fa-f711a6e93a4d")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e20bb044-4ba0-4eb7-8cd4-77b1cfc9f1aa")
+		(property "Reference" "R39"
+			(at 114.046 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.586 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2ea9fae-cf11-4854-8518-9966e0de63bb")
+		)
+		(pin "1"
+			(uuid "1757b2e9-4e07-492a-abe0-03938759b749")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Librairie_commande:GND")
+		(at 203.2 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e779b42e-7a08-4d60-984c-c8a89030a7fc")
+		(property "Reference" "#PWR076"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188bf64c-7866-4455-9e56-5546f19cd527")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 46.99 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a7370d-0919-4a46-afae-c7e8cee41056")
+		(property "Reference" "R62"
+			(at 45.7199 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 48.2599 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 47.244 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a682a711-b07f-4f3b-bf92-227635784da9")
+		)
+		(pin "1"
+			(uuid "77fae95a-5870-4445-88c6-ff51f58e2b71")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Capacitor:C_1206")
+		(at 240.03 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9cd8693-353f-4239-9e40-cdaf2e0c5407")
+		(property "Reference" "C21"
+			(at 242.316 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 240.9952 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor 1206 SMD"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bad3cea-3969-4c8d-94cb-1256203c97e1")
+		)
+		(pin "2"
+			(uuid "b721baa7-2b73-44ea-a2aa-ad0f85bfb30e")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 115.57 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c695c8-6f79-45ee-94dd-6823543fc486")
+		(property "Reference" "R80"
+			(at 115.57 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 115.57 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.824 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7328ded-fe51-481d-b4f7-955f6eb69912")
+		)
+		(pin "1"
+			(uuid "32997a92-0cc4-487c-b0df-01325f03eaeb")
+		)
+		(instances
+			(project "Commande boucle de courant"
+				(path "/cce1e3a8-c13a-4278-9b8f-e7cbb9d80e27/e30abc7e-def3-427d-ac18-3f0f59afaea7"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
