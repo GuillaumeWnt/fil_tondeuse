@@ -75,3 +75,7 @@ fab/
 *.drl
 *.xln
 .kibot/
+
+#Documents Word
+*.docx
+*.lnk
