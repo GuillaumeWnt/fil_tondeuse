@@ -1,13 +1,16 @@
 # ==============================================================================
 # 1. PROTOCOLE & SERVEURS MCP PYTHON (KICAD & AUTOMATISATION)
 # ==============================================================================
-mcp                                 # SDK officiel Anthropic pour relier les outils à l'IA en local via stdio
+
+# !!! Ne pas décommenter car tous les serveurs MCP sont gérés par le scrpt_mcp.py !!!
+
+#mcp                                 # SDK officiel Anthropic pour relier les outils à l'IA en local via stdio
 
 # Serveur KiCad recommandé (léger, ~2 000 tokens) : audit netlist, rapports ERC/DRC et plans d'alimentation
-git+https://github.com/Seeed-Studio/kicad-mcp-server.git
+#git+https://github.com/Seeed-Studio/kicad-mcp-server.git
 
 # Serveur KiCad alternatif (+180 outils, très lourd en tokens) : édition géométrique, Freerouting et placement
-# git+https://github.com/mixelpixx/KiCAD-MCP-Server.git
+#git+https://github.com/mixelpixx/KiCAD-MCP-Server.git
 
 
 # ==============================================================================
