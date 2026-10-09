@@ -1,0 +1,30 @@
+[project]
+name = "fil-tondeuse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "GuillaumeWnt", email = "guillaume.winant@gmail.com" }
+]
+requires-python = ">=3.11.5"
+dependencies = [
+    "interactivehtmlbom>=2.12.0",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.4",
+    "kibot>=1.9.1",
+    "kikit>=1.8.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "scipy>=1.17.1",
+]
+
+[project.scripts]
+fil-tondeuse = "fil_tondeuse:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"

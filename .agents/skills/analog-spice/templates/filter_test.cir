@@ -1,0 +1,16 @@
+* Test générique de filtre passe-bande pour détection de câble
+.title Circuit de détection de fil périphérique
+
+* Générateur de signal d'entrée (1V AC, offset 0)
+Vin in 0 AC 1 SIN(0 10m 10k)
+
+* Étage de filtrage d'exemple
+R1 in n1 10k
+C1 n1 n2 10n
+L1 n2 0 10m
+Rload n2 0 100k
+
+* Directives d'analyse
+.ac dec 100 100 100k
+.probe v(n2)
+.end

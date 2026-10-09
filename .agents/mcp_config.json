@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "konnect": {
+      "command": "C:\\Users\\guill\\Documents\\KiCad\\10.0\\3rdparty\\plugins\\com_github_mixelpixx_konnect\\bin\\konnect.exe",
+      "args": [],
+      "type": "stdio"
+    },
+    "kicad-seeed": {
+      "type": "stdio",
+      "command": ".venv-mcp-seeed\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "kicad_mcp_server"
+      ]
+    },
+    "jlc-parts": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jlcpcb/mcp"
+      ]
+    },
+    "brave-search": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${env:BRAVE_API_KEY}"
+      }
+    },
+    "memory": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    }
+  }
+}
