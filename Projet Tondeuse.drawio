@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="CXMfuBD0G4tU6PNHsVUA">
-    <mxGraphModel dx="1554" dy="1741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="622" dy="1193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -380,7 +380,7 @@
         <mxCell id="YbRAJQWn6T9CoALQDfA--157" parent="YbRAJQWn6T9CoALQDfA--156" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="[U2A] Ampli soutracteur capteur hall [V]" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="YbRAJQWn6T9CoALQDfA--160" parent="YbRAJQWn6T9CoALQDfA--156" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="[U2B] Comparateur (réglage avec potentiomètre externe) [V]" vertex="1">
+        <mxCell id="YbRAJQWn6T9CoALQDfA--160" parent="YbRAJQWn6T9CoALQDfA--156" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="[U2B] Comparateur (réglage &quot;bruit&quot; avec potentiomètre externe) [V]" vertex="1">
           <mxGeometry height="58" width="140" y="60" as="geometry" />
         </mxCell>
         <mxCell id="YbRAJQWn6T9CoALQDfA--193" edge="1" parent="YbRAJQWn6T9CoALQDfA--156" source="YbRAJQWn6T9CoALQDfA--161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YbRAJQWn6T9CoALQDfA--160">
@@ -392,7 +392,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbRAJQWn6T9CoALQDfA--161" parent="YbRAJQWn6T9CoALQDfA--156" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="[U2C] Ampli non inverseur, utilisation non obligatoire [V]" vertex="1">
+        <mxCell id="YbRAJQWn6T9CoALQDfA--161" parent="YbRAJQWn6T9CoALQDfA--156" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="[U2C] Ampli non inverseur (G=2), utilisation non obligatoire [V]" vertex="1">
           <mxGeometry height="68" width="140" y="118" as="geometry" />
         </mxCell>
         <mxCell id="YbRAJQWn6T9CoALQDfA--158" parent="YbRAJQWn6T9CoALQDfA--156" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="[U2D] Ampli soustracteur Shunt [V]" vertex="1">
